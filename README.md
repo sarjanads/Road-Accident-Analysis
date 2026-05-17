@@ -25,6 +25,14 @@ Built an interactive Excel dashboard to analyze road accident data and identify 
 - Slicers
 - Dashboard Design
 
+## Skills Demonstrated
+- Data Cleaning
+- Pivot Tables
+- Pivot Charts
+- Dashboard Design
+- Data Visualization
+- Business Insights
+
 ## Files Included
 - [Dashboard File](Road_Accident_Data.xlsx)
 - Full Dataset: https://docs.google.com/spreadsheets/d/1a0N_G0bNHJReJllAGPiVm6PvVYt95p2t/edit?usp=drive_link
