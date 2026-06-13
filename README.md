@@ -3,7 +3,7 @@
 ## Project Overview
 Built an interactive Excel dashboard to analyze road accident data and identify casualty trends by road type, vehicle type, location, and time period.
 
-## Dashboard Highlights
+## Features
 - Total Casualties Analysis
 - Severity Breakdown (Fatal, Serious, Slight)
 - Vehicle Type Analysis
@@ -25,7 +25,7 @@ Built an interactive Excel dashboard to analyze road accident data and identify 
 - Slicers
 - Dashboard Design
 
-## Skills Demonstrated
+## Key Skills
 - Data Cleaning
 - Pivot Tables
 - Pivot Charts
