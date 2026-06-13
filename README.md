@@ -27,11 +27,11 @@ Built an interactive Excel dashboard to analyze road accident data and identify 
 
 ## Key Skills
 - Data Cleaning
-- Pivot Tables
-- Pivot Charts
-- Dashboard Design
+- Data Analysis
 - Data Visualization
+- Dashboard Development
 - Business Insights
+- Pivot Tables & Charts
 
 ## Files Included
 - [Dashboard File](Road_Accident_Data.xlsx)
