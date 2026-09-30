@@ -1,76 +1,42 @@
 # 🚑 Road Accident Analysis Dashboard (2021–2022)
 
-## 🎯 Project Objective
-The objective of this project is to analyze road accident data from 2021–2022 and build an interactive Excel dashboard to identify patterns in casualties, accident severity, and contributing factors. The goal is to understand accident trends and support data-driven road safety improvements.
+## 🎯 Objective
+Analyze 2021–2022 road accident data in an interactive Excel dashboard to understand casualty patterns, severity and the conditions in which accidents occur.
 
----
+## 📂 Dataset
+- **Source:** [name of dataset / link]
+- **Fields:** accident date and time, vehicle type, road type, road surface condition, urban/rural, casualty severity (fatal, serious, slight), number of casualties
+- **Full dataset:** [Google Drive link, set to "Anyone with the link"]
 
-## 📂 Dataset Overview
-The dataset contains road accident records including:
-
-- Accident date and time  
-- Vehicle types involved  
-- Road type and road surface conditions  
-- Location type (urban/rural)  
-- Severity of casualties (fatal, serious, slight)  
-- Number of casualties  
-
----
+## 🧹 Data Cleaning
+- [e.g. removed duplicate records]
+- [e.g. standardised date formats / handled missing values]
 
 ## 📊 Dashboard Features
-- Total Casualties Overview  
-- Severity Breakdown (Fatal, Serious, Slight)  
-- Vehicle Type Analysis  
-- Road Type & Surface Analysis  
-- Urban vs Rural Comparison  
-- Monthly Trend Analysis  
-- Interactive Slicers for filtering  
+- Total casualties and severity breakdown (fatal, serious, slight)
+- Vehicle type, road type and road surface analysis
+- Urban vs rural comparison
+- Monthly trend
+- Slicers for interactive filtering
 
----
+![Dashboard preview](dashboard.png)
 
 ## 💡 Key Insights
-- Total casualties recorded: **417,883**, showing high road safety concerns during the period  
-- **84.1% of casualties were slight**, indicating most accidents were non-fatal but frequent  
-- Single carriageways accounted for the highest number of accidents, indicating higher risk on such roads  
-- Dry road conditions still recorded the highest number of accidents, suggesting driver behavior is a key factor  
-- Accident distribution varies across months, indicating seasonal or traffic pattern influences  
+- **417,883** total casualties recorded across 2021–2022
+- **84.1%** of casualties were slight; the rest were serious or fatal
+- Most casualties occurred on **single carriageways** and in **dry road conditions**. This partly reflects how common these are, so risk per mile would need traffic volume data
+- Casualties peaked in **[month]** and were lowest in **[month]**
 
----
+## ✅ Recommendations
+- [e.g. Prioritise safety review of single carriageways, since they account for the most casualties]
+- [e.g. Look at [peak month] for seasonal traffic or weather effects]
+- Collect traffic volume data to compare accident rates, not just counts
 
-## 📊 Business Impact
-- Helps identify high-risk road types for infrastructure improvements  
-- Supports traffic authorities in planning safety measures  
-- Assists in identifying accident-prone conditions and time periods  
-- Provides insights for road safety awareness campaigns  
-- Helps reduce future accidents through data-driven decisions  
+## 🛠 Tools
+Microsoft Excel · Pivot Tables · Pivot Charts · Slicers · Data Cleaning
 
----
-
-## 🛠 Tools & Technologies Used
-- Microsoft Excel  
-- Pivot Tables  
-- Pivot Charts  
-- Slicers & Filters  
-- Data Cleaning & Transformation  
-- Dashboard Design Principles  
-
----
-
-## Files Included
-- [Dashboard File](Road_Accident_Data.xlsx)
-- Full Dataset: https://docs.google.com/spreadsheets/d/1a0N_G0bNHJReJllAGPiVm6PvVYt95p2t/edit?usp=drive_link
-
-## Dashboard Preview
-![Dashboard](Road_Accident_Dashboard.png)
-
-## 🚀 Key Learnings
-- Learned how to analyze large-scale accident datasets  
-- Built interactive dashboards using Excel  
-- Improved ability to extract meaningful insights from raw data  
-- Strengthened data visualization and storytelling skills  
-- Understood real-world application of data analytics in road safety  
-
----
+## 📁 Files
+- [Dashboard (Excel)](https://github.com/sarjanads/Road-Accident-Analysis/blob/main/Road_Accident_Data.xlsx)
 
 ## 👤 Author
-Sarjana D
+Sarjana Dhandapani · [LinkedIn](https://www.linkedin.com/in/sarjanads)
