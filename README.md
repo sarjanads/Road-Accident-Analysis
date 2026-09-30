@@ -1,42 +1,129 @@
 # 🚑 Road Accident Analysis Dashboard (2021–2022)
 
-## 🎯 Objective
-Analyze 2021–2022 road accident data in an interactive Excel dashboard to understand casualty patterns, severity and the conditions in which accidents occur.
+An interactive Excel dashboard that analyses road accident casualties from 2021–2022 to understand severity, the conditions in which accidents occur, and how casualties change over time.
+
+![Dashboard preview](Road_Accident_Dashboard.png)
+
+**Tools:** Microsoft Excel · Pivot Tables · Pivot Charts · Slicers · Data Cleaning
+
+---
+
+## 🎯 Project Objective
+Analyse road accident data from 2021–2022 and build an interactive Excel dashboard that shows patterns in casualties, accident severity and contributing conditions. The aim is to turn raw records into insights that could support road safety planning.
+
+## ❓ Business Questions
+- How many casualties were recorded, and how severe were they?
+- Which vehicle types are involved?
+- Which road types and road surface conditions see the most casualties?
+- How do urban and rural areas compare?
+- How do casualties change month to month?
+
+---
 
 ## 📂 Dataset
-- **Source:** [name of dataset / link]
-- **Fields:** accident date and time, vehicle type, road type, road surface condition, urban/rural, casualty severity (fatal, serious, slight), number of casualties
-- **Full dataset:** [Google Drive link, set to "Anyone with the link"]
+The dataset contains road accident records for 2021–2022.
 
-## 🧹 Data Cleaning
-- [e.g. removed duplicate records]
-- [e.g. standardised date formats / handled missing values]
+| Field | Description |
+|---|---|
+| Accident date and time | When the accident occurred |
+| Vehicle type | Type of vehicle involved |
+| Road type | Type of road where the accident occurred |
+| Road surface condition | Condition of the road surface |
+| Location type | Urban or rural |
+| Casualty severity | Fatal, serious or slight |
+| Number of casualties | Casualties per record |
+
+**Full dataset:** [Google Drive](https://docs.google.com/spreadsheets/d/1a0N_G0bNHJReJllAGPiVm6PvVYt95p2t/edit?usp=drive_link)
+
+---
+
+## 🔍 Approach
+1. Loaded and inspected the raw dataset
+2. Cleaned and transformed the data for analysis
+3. Built pivot tables to answer each business question
+4. Created pivot charts from those tables
+5. Added slicers so the dashboard can be filtered interactively
+6. Arranged everything into a single dashboard
+
+---
 
 ## 📊 Dashboard Features
-- Total casualties and severity breakdown (fatal, serious, slight)
-- Vehicle type, road type and road surface analysis
+- Total casualties overview
+- Severity breakdown (fatal, serious, slight)
+- Vehicle type analysis
+- Road type and road surface analysis
 - Urban vs rural comparison
-- Monthly trend
-- Slicers for interactive filtering
+- Monthly trend analysis
+- Interactive slicers for filtering
 
-![Dashboard preview](dashboard.png)
+---
 
 ## 💡 Key Insights
-- **417,883** total casualties recorded across 2021–2022
-- **84.1%** of casualties were slight; the rest were serious or fatal
-- Most casualties occurred on **single carriageways** and in **dry road conditions**. This partly reflects how common these are, so risk per mile would need traffic volume data
-- Casualties peaked in **[month]** and were lowest in **[month]**
+- **417,883** casualties were recorded across 2021–2022.
+- **84.1%** of casualties were slight, so most were non-fatal but frequent.
+- **Single carriageways** recorded the most casualties, and **dry road conditions** recorded the most. Both are also the most common conditions, so these counts alone don't show higher risk per mile.
+- Casualties vary across months, which suggests seasonal or traffic-pattern effects.
+
+---
 
 ## ✅ Recommendations
-- [e.g. Prioritise safety review of single carriageways, since they account for the most casualties]
-- [e.g. Look at [peak month] for seasonal traffic or weather effects]
-- Collect traffic volume data to compare accident rates, not just counts
+- Prioritise safety reviews on single carriageways, since they account for the most casualties.
+- Look into the months with the highest casualties for seasonal or traffic causes, and time awareness campaigns around them.
+- Collect traffic volume data so accident **rates** can be compared, not just counts.
 
-## 🛠 Tools
-Microsoft Excel · Pivot Tables · Pivot Charts · Slicers · Data Cleaning
+---
 
-## 📁 Files
-- [Dashboard (Excel)](https://github.com/sarjanads/Road-Accident-Analysis/blob/main/Road_Accident_Data.xlsx)
+## ⚠️ Limitations
+- The data shows counts, not rates. Traffic volume or distance travelled isn't included, so risk per road type can't be measured.
+- The analysis shows patterns, not causes. Many accidents on dry roads don't by themselves show that driver behaviour is the cause.
+
+---
+
+## 🛠 Tools Used
+| Tool | Used for |
+|---|---|
+| Microsoft Excel | Analysis and dashboard |
+| Pivot Tables | Summarising data by category and time |
+| Pivot Charts | Visualising the summaries |
+| Slicers | Interactive filtering |
+| Data Cleaning | Preparing the raw records |
+
+---
+
+## 📁 Repository Contents
+- [Road_Accident_Analysis_Dashboard.xlsx](https://github.com/sarjanads/Road-Accident-Analysis/blob/main/Road_Accident_Analysis_Dashboard.xlsx): the dashboard
+- [Road_Accident_Dashboard.png](Road_Accident_Dashboard.png): dashboard screenshot
+- README.md: this file
+
+---
+
+## 🖱 How to Use the Dashboard
+1. Download `Road_Accident_Analysis_Dashboard.xlsx` and open it in Microsoft Excel
+2. Go to the dashboard sheet
+3. Use the slicers to filter the data
+4. The charts update with your selection
+
+*Slicers work best in desktop Excel, not Excel Online or mobile.*
+
+---
+
+## 🧠 What I Learned
+- Cleaning and structuring a large dataset before analysing it
+- Building linked pivot tables, charts and slicers into one dashboard
+- Reading a count carefully instead of assuming it shows risk
+- Presenting findings as insights and recommendations, not just charts
+
+---
+
+## 🚀 Future Improvements
+- Rebuild the dashboard in **Power BI** with a proper data model
+- Query the data with **SQL** to answer the same questions
+- Use **Python (Pandas)** for cleaning and extra analysis
+- Add traffic volume data to calculate accident rates
+
+---
 
 ## 👤 Author
-Sarjana Dhandapani · [LinkedIn](https://www.linkedin.com/in/sarjanads)
+**Sarjana Dhandapani**
+MBA (AI & Data Science), RV University · Bengaluru
+🔗 [LinkedIn](https://www.linkedin.com/in/sarjanads) · 📧 sarjanadhp@gmail.com
