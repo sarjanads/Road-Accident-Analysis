@@ -62,7 +62,7 @@ The dataset contains road accident records for 2021–2022.
 - **417,883** casualties were recorded across 2021–2022.
 - **84.1%** of casualties were slight, so most were non-fatal but frequent.
 - **Single carriageways** recorded the most casualties, and **dry road conditions** recorded the most. Both are also the most common conditions, so these counts alone don't show higher risk per mile.
-- Casualties vary across months, which suggests seasonal or traffic-pattern effects.
+- Casualties vary across months with the real peak and lowest months from the monthly chart, which suggests seasonal or traffic-pattern effects.
 
 ---
 
