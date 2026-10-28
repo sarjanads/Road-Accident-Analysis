@@ -59,11 +59,11 @@ The dataset contains road accident records for 2021–2022.
 ---
 
 ## 💡 Key Insights
-- **417,883** casualties were recorded across 2021–2022.
-- **84.1%** of casualties were slight, so most were non-fatal but frequent.
-- **Single carriageways** recorded the most casualties, and **dry road conditions** recorded the most. Both are also the most common conditions, so these counts alone don't show higher risk per mile.
-- Casualties vary across months with the real peak and lowest months from the monthly chart, which suggests seasonal or traffic-pattern effects.
-
+- **417,883** casualties were recorded across 2021–2022: **84.1%** slight (351,436), **14.2%** serious (59,312) and **1.7%** fatal (7,135).
+- **Single carriageways** recorded the most casualties (309.7k, about 74%), and **dry road conditions** recorded the most. Both are also the most common conditions, so these counts alone don't show higher risk per mile.
+- **Urban areas** had 255.9k casualties (about 61%) against 162.0k in rural areas (about 39%).
+- **Daylight** accounted for 304,963 casualties (about 73%) and darkness for 112,920 (about 27%). Darkness has far less traffic, so this doesn't show it is safer.
+- **Casualties peaked in November** in both 2021 and 2022. **Friday** was the highest day of the week and **Sunday** the lowest.
 ---
 
 ## ✅ Recommendations
