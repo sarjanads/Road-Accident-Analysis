@@ -93,7 +93,6 @@ The dataset contains road accident records for 2021–2022.
 ## 📁 Repository Contents
 - [Road_Accident_Analysis_Dashboard.xlsx](https://github.com/sarjanads/Road-Accident-Analysis/blob/main/Road_Accident_Analysis_Dashboard.xlsx): the dashboard
 - [Road_Accident_Dashboard.png](Road_Accident_Dashboard.png): dashboard screenshot
-- README.md: this file
 
 ---
 
