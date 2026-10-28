@@ -64,11 +64,12 @@ The dataset contains road accident records for 2021–2022.
 - **Urban areas** had 255.9k casualties (about 61%) against 162.0k in rural areas (about 39%).
 - **Daylight** accounted for 304,963 casualties (about 73%) and darkness for 112,920 (about 27%). Darkness has far less traffic, so this doesn't show it is safer.
 - **Casualties peaked in November** in both 2021 and 2022. **Friday** was the highest day of the week and **Sunday** the lowest.
+
 ---
 
 ## ✅ Recommendations
 - Prioritise safety reviews on single carriageways, since they account for the most casualties.
-- Look into the months with the highest casualties for seasonal or traffic causes, and time awareness campaigns around them.
+- Investigate why casualties peak in November (seasonal weather, shorter daylight, traffic patterns) and time road safety campaigns ahead of it.
 - Collect traffic volume data so accident **rates** can be compared, not just counts.
 
 ---
